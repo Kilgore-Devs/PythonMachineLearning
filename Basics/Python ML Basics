@@ -1,1 +1,10 @@
-This is a test.
+Data types.
+There are 3 main categories.
+
+Numerical - numbers. Split into 2 numerical categories.
+    Discrete Data - nums limited to integers. Like 1 person-cant be half.
+    Continuous Data - infinite in value. Like people in the world.
+
+Categorical - values that can't be measured up against each other. Color value, or any yes/no values.
+
+Ordinal - Can be measured against each other. Letter grades, shirt sizes etc.
