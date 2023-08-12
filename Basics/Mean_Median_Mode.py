@@ -8,7 +8,7 @@ age = [24, 26, 27, 45, 16, 56, 18, 27, 43, 31]
 
 x = numpy.mean(age)
 y = numpy.median(age)
-from scipy import stats  # import scipy to use mode
+from scipy import stats  # Import scipy to be able to use mode.
 z = stats.mode(age)
 
 print(x, y, z)
