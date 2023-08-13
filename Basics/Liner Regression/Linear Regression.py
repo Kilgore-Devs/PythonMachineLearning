@@ -9,7 +9,7 @@ y = [100, 80, 87, 90, 111, 82, 110, 87, 97, 70, 80, 85, 89]
 slope, intercept, r, p, std_err = stats.linregress(x, y)  # returns key values of linear regression
 
 
-def linreg(x):  # uses slope and intercept values to return a new value
+def linreg(x):  # uses slope and intercept values to return a new value.
     return slope * x + intercept  # new value reps y
 
 

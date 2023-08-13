@@ -22,6 +22,6 @@ print(prediction)  # prints prediction
 predictionplot = list(map(myfx, a))
 
 plt.scatter(a, b)
-plt.plot(a, predictionplot)  # visualize the regression line
+plt.plot(a, predictionplot)  # Visualize the regression line.
 plt.show()
-# the closer to 1 or -1 means a higher relationship
+# The closer to 1 or -1 means a higher relationship.
