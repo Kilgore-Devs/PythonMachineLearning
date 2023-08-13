@@ -19,5 +19,3 @@ b = np.random.normal(20, 4, 5000)
 
 plt.scatter(a, b)
 plt.show()
-
-D
