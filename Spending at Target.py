@@ -57,6 +57,6 @@ plt.text(0.5, 0.5, "Based on the current data:\n On her next trip, My wife will 
          horizontalalignment='center', verticalalignment='center')
 plt.axis('off')  # Turn off axis for a clean window
 plt.suptitle('Prediction of next trip to Target')
-
+# fig.tight_layout(rect=[0, 0.03, 1, 0.95])
 plt.tight_layout()  # Improve appearance of overall figure layout.
 plt.show()  # Display the figures.
